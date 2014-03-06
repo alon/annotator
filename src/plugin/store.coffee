@@ -78,7 +78,7 @@ class Annotator.Plugin.Store
     @options = $.extend(true, {}, @options, options)
 
   # Public: Callback method for annotationCreated event. Receives an annotation
-  # and sends a POST request to the sever using the URI for the "create" action.
+  # and sends a POST request to the server using the URI for the "create" action.
   #
   # annotation - An annotation Object that was created.
   #
